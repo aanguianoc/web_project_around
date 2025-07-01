@@ -1,0 +1,30 @@
+.header {
+    max-width: 880px;
+    margin: auto;
+    padding: 0;
+}
+
+.logotipo {
+    width: 173px;
+    color: #fff;
+    margin: 20px auto;
+}
+
+@media screen and (min-width: 585px) and (max-width: 880px) {
+    .header {
+        max-width: 100%;
+    }
+    .logotipo {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 584px) {
+    .header__image {
+        max-width: 100%;
+    }
+    .logotipo {
+        width: 126px;
+    }
+  }
+  

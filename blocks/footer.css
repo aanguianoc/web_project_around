@@ -1,0 +1,24 @@
+footer {
+    width: 318px;
+    padding: 0;
+    color: #545454;
+    align-items: flex-start;
+    margin: 68px  0;
+    }
+
+.footer__cr {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 584px) {
+    .footer {
+        max-width: 584px;
+        margin: auto;
+    } 
+}
+@media screen and (min-width: 585px) and (max-width: 880px) {
+        .footer {
+            max-width: 880px;
+            margin: auto;
+        }         
+}

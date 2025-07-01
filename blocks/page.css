@@ -1,0 +1,25 @@
+body {
+    background-color: #111; /* Fondo oscuro */
+}
+
+.page {
+    max-width: 1280px;
+    font-family: Inter, sans-serif;
+    color: #eee; /* Texto claro */
+    margin: auto;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 584px) {
+      .page {
+      max-width: 584px;
+      background-color: rgb(93, 165, 88);
+    }
+}
+
+@media screen and (min-width: 585px) and (max-width: 880px) {
+    .page {
+        max-width: 880;
+        background-color: rgb(131, 114, 93);
+    }
+  }
+  
